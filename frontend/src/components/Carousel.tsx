@@ -65,23 +65,23 @@ const Carousel = ({ carousel, hero_carousel }) => {
     autoplay: true,  // Enable auto-scrolling
     autoplaySpeed: 3000,  // Set the interval (3000ms = 3 seconds)
     nextArrow: <NextArrow />,  // Use arrow components here
-    prevArrow: <PrevArrow />,  // Use arrow components here
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
+    prevArrow: <PrevArrow /> // Use arrow components here
+    // responsive: [
+    //   {
+    //     breakpoint: 768,
+    //     settings: {
+    //       slidesToShow: 1,
+    //       slidesToScroll: 1,
+    //     },
+    //   },
+    //   {
+    //     breakpoint: 480,
+    //     settings: {
+    //       slidesToShow: 1,
+    //       slidesToScroll: 1,
+    //     },
+    //   },
+    // ],
   };
 
   return (

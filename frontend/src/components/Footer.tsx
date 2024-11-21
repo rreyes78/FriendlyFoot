@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className='p-4 font-Poppins w-full'>
-      <p className=' w-fit m-auto mt-2 text-[14px] md:text-[16px]'>Our commitment to quality ensures that every step you take is supported by the best in style, comfort, and performance</p>
+      <p className=' w-fit m-auto mt-2 text-[14px] md:text-[16px] text-center'>Our commitment to quality ensures that every step you take is supported by the best in style, comfort, and performance</p>
       <div className='flex gap-2 w-fit m-auto mt-2 mb-8'>
         <img className='w-[40px] h-[40px] cursor-pointer' src="../../src/assets/fb.png" alt="" />
         <img className='w-[40px] h-[40px] cursor-pointer'  src="../../src/assets/tw.png" alt="" />

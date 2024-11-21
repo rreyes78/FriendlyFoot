@@ -49,6 +49,12 @@ h1, h2, h3 {
     height: 16px;
 }
 
+.separator-white {
+    width: 100%;
+    background-color: white;
+    height: 0.3px;
+}
+
 .active {
     background: black;
     color: white;
@@ -64,4 +70,12 @@ h1, h2, h3 {
     --tw-bg-opacity: 1;
     border-radius: 6px;
 }
+
+@media screen and (max-width: 392px) {
+    .screen392 {
+        max-width: 250px;
+    }
+}
+
+
 

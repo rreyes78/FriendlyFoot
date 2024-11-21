@@ -69,12 +69,12 @@ const Home = () => {
 
   return (
     <>
-      <section className='px-4 mb-4 flex-1 sm:px-8 sm:mb-6 md:flex md:px-14 md:mb-10 max-w-screen-2xl w-fit m-auto'>
-        <div className='block items-center md:max-w-[600px] m-auto sm:pl-2 sm:mx-2'>
-          <h3 className='text-[20px] md:text-[32px] font-bold sm:text-[30px] font-Mulish leading-tight'>Find the most affordable and friendly market shoe online at FriendlyFoot</h3>
+      <section className='px-4 mb-4 flex-1 sm:px-8 sm:mb-6 md:flex md:px-14 md:mb-10 max-w-screen-2xl w-fit m-auto md:py-[40px]'>
+        <div className='block items-center md:max-w-[680px] m-auto sm:pl-2 sm:mx-2'>
+          <h3 className='text-[20px] md:text-[32px] md:max-w-[620px] font-bold sm:text-[30px] font-Mulish leading-tight'>Find the most affordable and friendly market shoe online at FriendlyFoot</h3>
           <p className='text-[16px] md:text-[20px] text-ligt-grey2 mt-1 sm:text-[18px] leading-tight'>Pick your favorite Collection which can be used as a standalone collection in website or as a widget to insert any hotest collection.</p>
         </div>
-        <div className='w-fit m-auto min-w-[210px] max-w-[310px]'>
+        <div className='w-fit m-auto max-w-[350px] screen392'>
         <Carousel carousel = 'Hero' hero_carousel = {card_data} />
         </div>
       </section>
